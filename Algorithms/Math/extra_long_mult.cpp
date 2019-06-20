@@ -2,7 +2,7 @@
 
 #include<iostream>
 #include<string>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 void extraLong (string str1, string str2) {
@@ -25,7 +25,7 @@ void extraLong (string str1, string str2) {
         mul[i] %= 10;
     }
     
-    for (int i = 0 ; i < maxLen ; ++i)
+    for (int i = 0 ; i < maxLen-1 ; ++i)
         cout << mul[i];
     cout << endl;
 }
